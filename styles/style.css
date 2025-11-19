@@ -11,7 +11,7 @@
   display: flex;
   align-items: flex-start;
   list-style: circle;
-  gap: 32.89px;
+  gap: 32px;
 }
 
 .header__links-list-item_no-bullit {
@@ -39,3 +39,86 @@
   font-style: inherit;
   line-height: 24.3px;
 }
+
+.cover {
+  position: relative;
+  min-height: 757px;
+  padding: 165px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.15;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_left {
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+  line-height: 1.55;
+  margin-left: 30px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin-left: 614px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 78px;
+  color: #fff;
+}
+
+.cover__description-text {
+font-size: 22px;
+text-transform: uppercase;
+word-spacing: 18px;
+padding-right: 30px;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: transparent;
+}
+
