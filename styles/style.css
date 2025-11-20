@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   min-width: 1100px;
-  max-width: 1100px; 
+  max-width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
@@ -9,9 +9,9 @@ body {
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  align-items: center; 
+  align-items: center;
   box-sizing: border-box;
-  max-width: 1100px; 
+  max-width: 1100px;
   margin: 0 auto;
   padding: 92px 50px 96px 50px;
   font-size: 18px;
