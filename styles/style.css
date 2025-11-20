@@ -1,7 +1,8 @@
 body {
   box-sizing: border-box;
+  width: 100%;
   min-width: 1100px;
-  max-width: 1100px;
+  max-width: 1440px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
@@ -31,6 +32,11 @@ body {
 
 .header__link {
   text-decoration: none;
+}
+
+.header__link_underlined {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .header__logo-image {
